@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 550px;
+    background: linear-gradient(to right, #672280, #A626D3);
+}
+
+.header__logo {
+    width: 1.9569rem;
+    height: auto;
+    margin-inline: 2rem 1rem;
+}
+
+.header__title {
+    font-size: 1.2969rem;
+    color: #ffffff;
+}
