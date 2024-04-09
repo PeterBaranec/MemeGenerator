@@ -1,6 +1,5 @@
 .header {
     display: flex;
-    justify-content: left;
     align-items: center;
     width: 550px;
     background: linear-gradient(to right, #672280, #A626D3);
