@@ -5,7 +5,11 @@ main {
 .form {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
+}
+
+.form>div {
+    text-align: left;
 }
 
 .form__btn {
@@ -16,7 +20,10 @@ main {
     border-radius: 5px;
     border: 1px solid #D5D4D8;
     font-family: inherit;
+    font-size: inherit;
     text-indent: 5px;
+    height: 35px;
+    width: 98%;
 }
 
 .form__btn {
@@ -25,5 +32,11 @@ main {
     color: #ffffff;
     background: linear-gradient(to right, #672280, #A626D3);
     font-family: inherit;
+    font-size: inherit;
     cursor: pointer;
+}
+
+.meme__image {
+    margin-top: 1rem;
+    max-width: 100%;
 }
